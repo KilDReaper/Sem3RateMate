@@ -4,13 +4,15 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true }
     namespace = "com.example.ratemate"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.ratemate"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
